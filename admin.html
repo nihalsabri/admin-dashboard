@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+    <header>
+        <div> <h1>E-Commerce</h1></div>
+            
+        <div>
+            <ul class="nav-items">
+                <li><a href="./home.html">products</a></li>
+                <li><a href="./admin.html">Admin</a></li>
+                <li><a href="./create.html">Create</a></li>
+            </ul>
+        </div>
+            
+    </header>
+
+<main>
+    <input type="text" id="searchBar" placeholder="Search products by name" />
+    <button id="searchButton">Search</button>
+    <h2>Admin Page - Manage Products</h2>
+
+<table >
+    <thead> <tr> 
+        
+        <th>Product ID</th> 
+        <th>Product Email</th>
+         <th>Category Name</th> 
+        <th>Category ID </th> 
+        <th>Actions</th>
+     </tr> 
+    </thead>
+    <tbody id="ProdcutsTableBody"> 
+
+    </tbody>
+  </table>
+    
+
+
+
+</main>
+<script src="./admin.js"></script>
+</body>
+</html>

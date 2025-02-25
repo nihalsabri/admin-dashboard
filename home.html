@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title> E-Commerce </title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+  <div>  <h1>E-Commerce</h1></div>
+   
+
+<div>
+    <ul class="nav-items">
+        <li><a href="./home.html">products</a></li>
+        <li><a href="./admin.html">Admin</a></li>
+        <li><a href="./create.html">Create</a></li>
+    </ul>
+</div>
+       
+    </header>
+  
+
+<div class="products">
+  <div class="side-menu">
+    <h2> Filter Products</h2>
+    <!-- <label for="Category">Category</label>
+    <select name="Category" id="Category" >
+        <option value="" disabled selected >Select an option</option>
+        <option value="All categories">All categories</option>
+        <option value="Clothes">Clothes</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Furniture">Furniture</option>
+        <option value="Shoes">Shoes</option>
+        <option value="Others">Others</option>
+    </select> -->
+
+
+    <select id="category">
+        <option value="all">All Categories</option>
+    </select>
+
+    <label for="minPrice">minPrice</label>
+    <input type="text" id="minPrice" name="minPrice" placeholder=" e.g 10"/>
+
+    <label for="maxPrice">maxPrice</label>
+    <input type="text" id="maxPrice" name="maxPrice"  placeholder=" e.g 10"/>
+
+
+    <button id="apply"> Apply filters</button>
+    <button id="reset"> Reset</button>
+
+  </div>
+
+  <div class="content">
+    <div id="cards">
+
+    <!-- <div class="card">
+        <picture class="product-img">
+            <img src="" alt="">
+        </picture>
+
+        <div class="product-title">
+        </div>
+        <div class="product-Category">
+        </div>
+        <div class="product-Price">
+            <span> </span>
+        </div>
+       
+
+    </div> -->
+    
+        <div class="pagination">
+
+        </div>
+    </div>
+
+
+  
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
